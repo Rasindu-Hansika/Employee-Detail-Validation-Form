@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  body {
+    color: rgb(56, 61, 65);
+  }
+  
+  .container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+ 
