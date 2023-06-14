@@ -51,6 +51,9 @@ function formatPrice(price) {
 $("#frm-employee").on('submit', (eventData) => {
 
     eventData.preventDefault();
+    if (!validateData()) {
+          return;
+    }
 
 
     const newEmployee = new Employee(txtName.val().trim(),
